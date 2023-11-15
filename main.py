@@ -1,16 +1,13 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+mood = "happy"
+if mood=="happy":
+    print("Its great to see you happy!")
+elif mood == "nervous":
+    print("Take a deep breath 3 times.")
+elif mood=="sad":
+    print("please talk to a loved one")
+elif mood == "excited":
+    print("i am really happy you are excited")
+elif mood == "relaxed":
+    print("continue to enjoy the relaxation")
+else:
+    print("I dont recognize this mood!")
